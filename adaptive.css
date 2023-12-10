@@ -1,0 +1,765 @@
+@media screen and (max-width: 320px) {
+    body {
+        width: 320px;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background: none;
+        width: 320px;
+        height: 1294px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        margin: 0;
+        font-size: 20px;
+        letter-spacing: -0.4;
+    }
+    #logo {
+        margin: 20px 66px 0px 67px;
+    }
+    #info {
+        background: url(img/clouds.png);
+        background-position: 129px 55px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 20px 85px 0px 85px;
+        gap: 0;
+    }
+    #d3 {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        order: 1;
+    }
+    #d3 p {
+        margin: 0 auto;
+    }
+    #d3 img {
+        width: 22px;
+        height: 22px;
+        margin: 0 auto;
+    }
+    #d1 {
+        margin-top: 40px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        order: 2;
+    }
+    #d1 img {
+        margin: 0 auto;
+    }
+    #d1 p {
+        text-align: center;
+    }
+    #d2 {
+        margin-top: 50px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        order: 3;
+    }
+    #d2 img {
+        width: 20px;
+        height: 20px;
+        margin: 0 auto;
+    }
+    #d2 p {
+        text-align: center;
+    }
+    #d4 {
+        margin: 52px 0px 0px -36px;
+        order: 4;
+    }
+    .lapka_adaptive {
+        display: block;
+        background: url(img/lapka_adaptive.png);
+        width: 299.5701px;
+        height: 297.39169px;
+        margin: 24px 0px 0px -75px;
+        order: 5;
+    }
+    #name h1 {
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-left: 6px;
+        font-size: 25px;
+        letter-spacing: -0.4px;
+        font-weight: 600;
+        line-height: 35px;
+    }
+    #name form {
+        display: none;
+    }
+    #name p {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-left: 6px;
+        font-size: 20px;
+        letter-spacing: -0.4px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    #name .text_special {
+        margin-top: 20px;
+        line-height: 30px;
+    }
+    #info1 {
+        margin: 0 auto;
+        margin-top: 29px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    #i1 img{
+        width: 35px;
+        height: 35px;
+        margin: 15px 5px 10px 8px;
+    }
+    #i1 p{
+        margin-left: -6px;
+    }
+    #i2 img{
+        width: 35px;
+        height: 35px;
+        margin: 22px 5px 10px 8px;
+    }
+    #i2 p{
+        margin-top: 18px;
+        margin-left: -6px;
+        width: 171px;
+    }
+    #i3 img{
+        width: 35px;
+        height: 35px;
+        margin: 20px 5px 10px 16px;
+    }
+    #i3 p{
+        margin-top: 15px;
+    }
+
+    #nomer {
+        margin: 0 auto;
+    }
+    #nomer h2 {
+        margin-left: 10px;
+    }
+    #sale {
+        width: 250px;
+        height: 181px;
+        margin: 0;
+        margin-top: 76px;
+        margin-left: 34px;
+    }
+    #var {
+        margin-top: 272px;
+        display: flex;
+        flex-direction: column;
+        gap: 39px;
+    }
+    .num {
+        width: 300px;
+        height: 724px;
+        margin-left: 10px;
+    }
+    .num img{
+        width: 300px;
+        height: 395px;
+    }
+    .info2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .info2 h4 {
+        font-size: 18px;
+        font-weight: 100;
+        margin-top: -4px;
+        margin-left: -6px;
+        letter-spacing: -0.1px;
+    }
+    .price {
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: -0.1px;
+        margin: 12px 0px 18px -6px;
+    }
+    .text2 {
+        margin-top: 2px;
+        margin-left: -6px;
+    }
+    .text3 {
+        margin: 4px 0px 18px -6px;
+    }
+    .text4 {
+        margin-top: 4px;
+        margin-left: -6px;
+    }
+    .text4 br {
+        display: none;
+    }
+    .text4 span {
+        font-size: 16px;
+        margin-left: 26px;
+    }
+    .info2 button{
+        width: 300px;
+        height: 55px;
+        margin-top: 28px;
+        margin-left: -20px;
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    #foto {
+        display: block;
+        margin: 101px 0px 0px 8px;
+    }
+    #foto h2 {
+        display: flex;
+        justify-content: space-between;
+        width: 297px;
+        line-height: 140%;
+    }
+    #foto h2 span {
+        display: block;
+        font-family: MontserratMed;
+        margin-top: 5px;
+        font-size: 16px;
+        font-weight: 100;
+        color: #848484;
+    }
+    #im1 {
+        width: 240px;
+        height: 265px;
+    }
+    #im2{
+        opacity: 0.5;
+    }
+    #im3 {
+        display: none;
+    }
+    #foto article {
+        margin-top: -21px;
+        margin-left: 2px;
+        display: flex;
+        gap: 15px;
+    }
+    #foto article img {
+        width: 240px;
+        height: 265px;
+    }
+    #foto article div {
+        display: none;
+    }
+
+    #uslov {
+        margin: 0;
+        height: 1630px;
+        margin-top: 101px;
+        margin-left: 10px;
+    }
+    #uslov img {
+        display: none;
+    }
+    #uslov h2{
+        margin: 0;
+        font-size: 20px;
+        letter-spacing: -0.4;
+    }
+    #uslov article{
+        border-top: none;
+        padding-top: 24px;
+        margin-bottom: 0;
+        width: 320px;
+    }
+    .info3 {
+        display: flex;
+        flex-direction: column;
+        border-bottom: #F6A6BF 1px solid;
+    }
+    .info3 div h3 {
+        width: 300px;
+        font-size: 18px;
+        font-weight: 100;
+    }
+    .info3 div ul{
+        margin-top: 20px;
+    }
+    .info3 div ul li{
+        list-style: none;
+        background: url(img/marker.png) no-repeat left;
+        font-size: 16px;
+    }
+    .spisok {
+        margin-bottom: 13px;
+    }
+    #spisok1{
+        margin-left: 0;
+    }
+    #lapka{
+        display: none;
+    }
+    #recomendacii {
+        margin-top: -8px;
+    }
+    #text5 {
+        width: 300px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: -0.2px;
+        margin-top: 20px;
+    }
+    #spisok2{
+        margin-top: 18px;
+        margin-left: 0;
+    }
+    #pitanie {
+        margin-top: -4px;
+    }
+    #text6{
+        width: 300px;
+        font-size: 16px;
+        margin: 18px 0px 0px 0px;
+    }
+    .inf1 {
+        padding-bottom: 28px;
+    }
+    .inf {
+        display: flex;
+        flex-direction: column;
+    }
+    .inf #inf_more1 {
+        order: 2;
+    }
+    .inf #inf_more1 h3 {
+        margin-top: 2px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+    }
+    .inf #inf_more2 {
+        order: 1;
+    }
+    .inf #cat1{
+        display: block;
+        width: 240px;
+        height: 176px;
+        margin: 12px 0px 20px 30px;
+        transform: rotate(-5deg);
+    }
+    #spisok3{
+        margin-top: 21px;
+    }
+    #spisok3 br{
+        display: none;
+    }
+    #spisok3 li{
+        width: 280px;
+        padding-left: 20px;
+        margin-bottom: 18px;
+    }
+
+    #zayvka{
+        margin: 0;
+    }
+    #zayvka h2 {
+        width: 300px;
+        font-weight: 600;
+        line-height: 140%;
+        margin: 62px 0px 30px 10px;
+    }
+    #zayvka article{
+        display: block;
+        text-align: center;
+    }
+    #catzay{
+        width: 300px;
+        height: 285px;
+    }
+    #zayvka form{
+        width: 320px;
+        height: 696px;
+        padding: 27px 0 0 0;
+    }
+    .txt{
+        border-bottom: 1px solid #242424;
+    }
+    .t1{
+        margin: 0;
+        margin-bottom: 39px;
+        width: 300px;
+    }
+    .t2{
+        width: 300px;
+        margin-top: 1px;
+        margin-bottom: 50px;
+    }
+    .btn{
+        width: 300px;
+        font-size: 16px;
+    }
+    #video{
+        padding: 0;
+        height: 612px;
+        margin: 48px 10px 0 10px;
+    }
+    #a1{
+        display: block;
+        margin: 0;
+    }
+    #a1 p, #a2 p{
+        font-size: 16px;
+        width: 300px;
+    }
+    #a1 p{
+        margin: 32px 0 27px 0;
+        line-height: 140%;
+    }
+    #a2 p{
+        word-spacing: -1px;
+        margin-bottom: 30px;
+        line-height: 135%;
+    }
+    #a2{
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 0 18.1px;
+    }
+    #a2 .numb, #a3 .numb{
+        width: 87.92px;
+        height: 81.49px;
+        border: none;
+        margin: 0;
+    }
+    #a2 .numb #img, #a3 .numb #img{
+        background-size: cover;
+        width: 40px;
+        height: 33px;
+        padding: 0;
+        margin: -38px 0 0 46.5px;
+    }
+    #a2 img, #a3 img{
+        width: 80px;
+        height: 80px;
+    }
+    #a2 .n4{
+        margin-top: 24px;
+    }
+    #a3{
+        margin: -130px 0 68px 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 24px 18.08px;
+    }
+    #a3 .n5{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .n10, .n11, .n12, .n13, .n14, .n15, .n16, .n17{
+        display: none;
+    }
+    #text_special1{
+        display: block;
+        font-size: 14px;
+        text-align: center; 
+        color: #848484;
+    }
+    #aboutUs{
+        padding: 0 10px;
+        margin: 100px 0 0 0;
+    }
+    #aboutUs #art1{
+        width: 300px;
+        margin: 0;
+        display: block;
+    }
+    #aboutUs #art1 img{
+        width: 320px;
+        height: 304px;
+        margin: -75px 0 0 -10px;
+    }
+    #txt1, #txt2, #txt3{
+        width: 300px;
+        margin: 0;
+        line-height: 140%;
+        letter-spacing: -0.2px;
+    }
+    #txt1{
+        font-size: 18px;
+        margin-top: 160px;
+    }
+    #txt2, #txt3{
+        font-size: 16px;
+        font-family: MontserratMed;
+    }
+    #txt2{
+        margin-bottom: 119px;
+        margin-top: -178px;
+    }
+    #txt3{
+        line-height: 138%;
+        margin-bottom: 19px;
+    }
+    #pytno{
+        display: none;
+    }
+    #aboutUs h5{
+        font-size: 18px;
+        letter-spacing: -0.4px;
+        font-family: MontserratReg;
+        margin: 0;
+        margin-top: 41px;
+    }
+    #art2{
+        width: 300px;
+        display: block;
+        margin: 29px 0 0 0;
+    }
+    #art2 ul li{
+        font-size: 16px;
+        padding-left: 50px;
+        line-height: 138%;
+        margin-bottom: 20px;
+        background: url(img/cat4_adaptiv.png) no-repeat left center;
+    }
+    #art2 ul #gos{
+        padding-left: 45px;
+    }
+    #art2 ul li p{
+        font-size: 16px;
+        line-height: 140%;
+        margin: 0;
+        margin-bottom: 20px;
+        width: 250px;
+        padding: 0;
+    }
+    .krug{
+        height: 44px;
+        width: 250px;
+    }
+    #korm{
+        width: 250px;
+    }
+    .vid, #nal{
+        width: 250px;
+        height: 44px;
+    }
+    .krug p, .krug1 p, .vid p, #nal p{
+        padding: 0;
+    }
+    .krug1{
+        position: absolute;
+        height: 33px;
+        width: 250px;
+        margin-top: 350px;
+    }
+    #room{
+        margin: 67px 0 0 50px;
+        width: 250px;
+    }
+    #room p{
+        margin-bottom: 4px;
+    }
+    #important{
+        margin: 69px 0 0 0;
+        padding: 10px;
+        display: flex;
+        height: 530px;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    #important #art4{
+        order: 2;
+    }
+    #catimp{
+        display: none;
+    }
+    #catimp_ad{
+        display: block;
+        margin-left: 38px;
+        margin-top: 8px;
+    }
+    #important h3{
+        font-size: 20px;
+        margin: 21px 0 0 0;
+    }
+    #important p{
+        margin: 30px 0 0 0;
+        font-size: 16px; 
+        width: 300px;
+    }
+    #faq{
+        margin: 102px 0 0 0;
+    }
+    #faq h2{
+        letter-spacing: -0.4px;
+        padding-left: 10px;
+        margin: 0;
+    }
+    #text_special2{
+        display: block;
+        color: #848484;
+        font-family: MontserratBold;
+        margin-top: 12px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+    #faq article{
+        display: block;
+        padding: 20px 10px 0 10px;
+        width: 320px;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    #faq p{
+        font-size: 13px;
+        line-height: 100%;
+        width: 300px;
+    }
+    #min, #pl{
+        display: none;
+    }
+    #faq article p{
+        font-size: 14px;
+        line-height: 144%;
+    }
+    #faq h6{
+        width: 300px;
+        font-size: 16px;
+        line-height: 138%;
+    }
+    #otvet1{
+        padding: 0;
+        height: 406px;
+        margin-bottom: 5px;
+    }
+    #otvet1 h6{
+        margin: 0 0 19px 0;
+    }
+    #otvet2, #otvet3, #otvet4{
+        height: 64px;
+        padding: 0;
+    }
+    #collab{
+        margin: 102px 0 0 0;
+        padding: 0 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    #txt4{
+        font-size: 18px;
+        font-family: MontserratReg;
+        margin: 150px 0 0 0;
+        letter-spacing: 0;
+    }
+    #txt5{
+        font-size: 16px;
+        line-height: 140%;
+        margin: -144px 0 0 0;
+        letter-spacing: 0;
+    }
+    #four{
+        display: block;
+        margin: 84px 0 0 0;
+        padding: 0;
+    }
+    .back p{
+        margin: 0;
+        width: 190px;
+        text-align: left;
+    }
+    #l_adap{
+        display: block;
+    }
+    .back{
+        background: none;
+        display: inline-flex;
+        gap: 23px;
+        width: 300px;
+        height: 61px;
+    }
+    .b1, .b2, .b3, .b4{
+        margin: 0 0 29px 0;
+        width: 300px;
+    }
+    .b1 p, .b2 p, .b3 p, .b4 {
+        margin: 0;
+    }
+    .b2 p, .b3 p{
+        margin-top: 15px;
+    }
+    .b4 p{
+        margin-left: 12px;
+    }
+    #contact{
+        margin-top: 93px;
+        padding: 32px 10px;
+    }
+    #contact h2{
+        letter-spacing: -0.4px;
+        margin-bottom: 32px;
+    }
+    #art3{
+        display: block;
+        margin-bottom: 20px;
+    }
+    #txt6{
+        letter-spacing: -0.2px;
+        font-size: 18px;
+        width: 180px;
+        line-height: 140%; 
+    }
+    #txt7{
+        margin-top: 19px;
+        font-size: 16px;
+    }
+    #map{
+        display: none;
+    }
+    #map_ad{
+        display: block;
+    }
+    #navig{
+        display: block;
+        margin-bottom: -41px;
+        margin-top: 30px;
+    }
+    #navig h5{
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-family: MontserratReg;
+    }
+    #lap{
+        display: none;
+    }
+    #navig p{
+        margin-bottom: 39px;
+    }
+    footer{
+        padding: 0;
+        display: block;
+    }
+    #copy p{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #menu{
+        display: none;
+    }
+}
